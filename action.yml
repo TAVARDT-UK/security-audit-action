@@ -1,0 +1,26 @@
+name: 'TAVARDT Security & Perimeter Audit'
+description: 'Automated technical verification of HTTP security headers, DMARC spoofing defense, and exposed credential leaks.'
+author: 'TAVARDT UK'
+
+branding:
+  icon: 'shield'
+  color: 'purple'
+
+inputs:
+  target-url:
+    description: 'Target website or domain to audit (e.g., example.com or https://example.com)'
+    required: true
+  fail-on-critical:
+    description: 'Fail the GitHub workflow if a critical exposure or vulnerability is detected'
+    required: false
+    default: 'false'
+
+outputs:
+  audit-score:
+    description: 'Overall security posture score from 0 to 100'
+  critical-alerts:
+    description: 'Count of critical vulnerabilities discovered'
+
+runs:
+  using: 'node20'
+  main: 'index.js'

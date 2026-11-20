@@ -1,0 +1,22 @@
+{
+  "name": "@tavardt/security-audit-action",
+  "version": "1.0.0",
+  "description": "GitHub Action for automated website security headers, DMARC validation, and sensitive file exposure testing via TAVARDT Diagnostic Engine.",
+  "main": "index.js",
+  "keywords": [
+    "github-action",
+    "security-audit",
+    "dmarc",
+    "security-headers",
+    "perimeter-defence",
+    "devsecops",
+    "tavardt"
+  ],
+  "author": "TAVARDT UK <technical@tavardt.com> (https://ag.tavardt.com/uk/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TAVARDT-UK/security-audit-action.git"
+  },
+  "homepage": "https://tools.tavardt.com/uk/"
+}
