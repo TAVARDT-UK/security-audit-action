@@ -60,15 +60,23 @@ To run an interactive manual audit or access the 20 specialized tools:
 
 * **TAVARDT Online Diagnostic Suite**: 20 free technical tools.
 * [DMARC & Spoofing Validator](https://tools.tavardt.com/uk/dmarc-checker/): In-depth DNS and deliverability diagnostics.
-* [Security Headers Analyzer](https://tools.tavardt.com/uk/security-headers-check/): Instant header remediation code generator.
+* [Security Headers Analyser](https://tools.tavardt.com/uk/security-headers-check/): Instant header remediation code generator.
 * **TAVARDT Corporate Cyber Defence**: Enterprise hardening, pentesting, and incident response.
+
+***
+
+## Governance and Sovereignty
+
+* **Sovereign Unit**: [TAVARDT United Kingdom](https://ag.tavardt.com/uk/) (`TAVARDT-UK`)
+* **Core Standards**: [00-core Governance](https://github.com/TAVARDT-UK/00-core)
+* **Diagnostic Portal**: **TAVARDT UK Diagnostic Suite**
+* **Enterprise Security**: [TAVARDT UK Cybersecurity](https://ag.tavardt.com/uk/cybersecurity/)
 
 ***
 
 ## License
 
-Released under the MIT License. Copyright
-
+Released under the MIT License. See [LICENSE](LICENSE) for full details.
 ***
 
 © 2026 TAVARDT. All rights reserved.
