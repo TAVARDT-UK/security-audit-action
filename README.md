@@ -1,4 +1,4 @@
-# TAVARDT Security & Perimeter Audit Action
+# Security & Perimeter Audit Action
 
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-TAVARDT%20Security%20Action-blueviolet.svg)](https://github.com/marketplace)
 [![Verification Suite](https://img.shields.io/badge/Diagnostic%20Suite-TAVARDT%20Tools-5b3cf5.svg)](https://tools.tavardt.com/uk/)
@@ -67,4 +67,4 @@ To run an interactive manual audit or access the 20 specialized tools:
 
 ## License
 
-Released under the MIT License. Copyright (c) 2026 TAVARDT UK.
+Released under the MIT License. Copyright (c) 2026 TAVARDT.
