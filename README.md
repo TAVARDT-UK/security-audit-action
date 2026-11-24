@@ -6,7 +6,7 @@
 
 An automated continuous security verification Action for GitHub workflows. Tests web perimeters against misconfigured HTTP security headers (CSP, HSTS), missing email spoofing records (DMARC), and critical `.env` credential leaks.
 
-Maintained by **TAVARDT UK**.
+Maintained by **TAVARDT**.
 
 ***
 
@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run TAVARDT Security Verification
-        uses: TAVARDT-UK/security-audit-action@main
+        uses: TAVARDT/security-audit-action@main
         with:
           target-url: 'example.com'
           fail-on-critical: 'false'
@@ -61,10 +61,14 @@ To run an interactive manual audit or access the 20 specialized tools:
 * **TAVARDT Online Diagnostic Suite**: 20 free technical tools.
 * [DMARC & Spoofing Validator](https://tools.tavardt.com/uk/dmarc-checker/): In-depth DNS and deliverability diagnostics.
 * [Security Headers Analyzer](https://tools.tavardt.com/uk/security-headers-check/): Instant header remediation code generator.
-* **TAVARDT UK Corporate Cyber Defence**: Enterprise hardening, pentesting, and incident response.
+* **TAVARDT Corporate Cyber Defence**: Enterprise hardening, pentesting, and incident response.
 
 ***
 
 ## License
 
-Released under the MIT License. Copyright (c) 2026 TAVARDT.
+Released under the MIT License. Copyright
+
+***
+
+© 2026 TAVARDT. All rights reserved.
