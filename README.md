@@ -6,9 +6,9 @@
 
 An automated continuous security verification Action for GitHub workflows. Tests web perimeters against misconfigured HTTP security headers (CSP, HSTS), missing email spoofing records (DMARC), and critical `.env` credential leaks.
 
-Maintained by **[TAVARDT UK](https://ag.tavardt.com/uk/)**.
+Maintained by **TAVARDT UK**.
 
----
+***
 
 ## 1. Quick Usage
 
@@ -34,16 +34,16 @@ jobs:
           fail-on-critical: 'false'
 ```
 
----
+***
 
 ## 2. Inputs & Configuration
 
 | Parameter | Required | Default | Description |
-|---|---|---|---|
+|-|-|-|-|
 | `target-url` | Yes | N/A | Target domain or web application URL to audit. |
 | `fail-on-critical` | No | `'false'` | Whether to fail the workflow build if a critical vulnerability is detected. |
 
----
+***
 
 ## 3. What the Action Validates
 
@@ -52,18 +52,18 @@ jobs:
 3. **Sensitive Credential Exposure:** Verifies that public root paths do not expose `.env` files or database configuration backups.
 4. **GitHub Step Summary:** Emits a formatted markdown table directly into your workflow execution report.
 
----
+***
 
 ## 4. Online Diagnostic Suite & Enterprise Engineering
 
 To run an interactive manual audit or access the 20 specialized tools:
 
-* [TAVARDT Online Diagnostic Suite](https://tools.tavardt.com/uk/): 20 free technical tools.
+* **TAVARDT Online Diagnostic Suite**: 20 free technical tools.
 * [DMARC & Spoofing Validator](https://tools.tavardt.com/uk/dmarc-checker/): In-depth DNS and deliverability diagnostics.
 * [Security Headers Analyzer](https://tools.tavardt.com/uk/security-headers-check/): Instant header remediation code generator.
-* [TAVARDT UK Corporate Cyber Defence](https://ag.tavardt.com/uk/cybersecurity/): Enterprise hardening, pentesting, and incident response.
+* **TAVARDT UK Corporate Cyber Defence**: Enterprise hardening, pentesting, and incident response.
 
----
+***
 
 ## License
 
