@@ -1,12 +1,9 @@
 # Security & Perimeter Audit Action
 
-[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-TAVARDT%20Security%20Action-blueviolet.svg)](https://github.com/marketplace)
 [![Verification Suite](https://img.shields.io/badge/Diagnostic%20Suite-TAVARDT%20Tools-5b3cf5.svg)](https://tools.tavardt.com/uk/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An automated continuous security verification Action for GitHub workflows. Tests web perimeters against misconfigured HTTP security headers (CSP, HSTS), missing email spoofing records (DMARC), and critical `.env` credential leaks.
-
-Maintained by **TAVARDT**.
 
 ***
 
@@ -58,10 +55,8 @@ jobs:
 
 To run an interactive manual audit or access the 20 specialized tools:
 
-* **TAVARDT Online Diagnostic Suite**: 20 free technical tools.
 * [DMARC & Spoofing Validator](https://tools.tavardt.com/uk/dmarc-checker/): In-depth DNS and deliverability diagnostics.
 * [Security Headers Analyser](https://tools.tavardt.com/uk/security-headers-check/): Instant header remediation code generator.
-* **TAVARDT Corporate Cyber Defence**: Enterprise hardening, pentesting, and incident response.
 
 ***
 
@@ -75,7 +70,7 @@ To run an interactive manual audit or access the 20 specialized tools:
 
 ## License
 
-Released under the MIT License. See [LICENSE](LICENSE) for full details.
+Released under the MIT License.
 ***
 
 © 2026 TAVARDT. All rights reserved.
